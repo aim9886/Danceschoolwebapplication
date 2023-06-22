@@ -1,0 +1,99 @@
+#container{
+    border-radius: 20px;
+    width: 350px;
+    height: 720px;
+    position: relative;
+    left: 250px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(81, 81, 81, 0.246);
+    box-shadow: 0px 0px 20px 5px black;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+form{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+h1{
+    color: brown;
+    text-shadow: 0px 0px 20px black;
+}
+
+input,button{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.74);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input{
+    text-align: center;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    /* width: 350px; */
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    transition: .5s;
+    outline: none;
+    font-size: 25px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+}
+
+button:active{
+    transform: scale(85%);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+#viewcardContainer{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    /* position: relative; */
+}
+
+#viewcard{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+    line-height: 30px;
+}
+
+#viewcard button{
+    height: 5vh;
+    width: 25%;
+    margin: auto;
+    /* background-color: blue; */
+}

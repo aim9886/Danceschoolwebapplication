@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: url(./authentication/dance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden; */
+}
+
+
+
+
+
+
+
+/* #Navbar{
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 2px;
+}
+
+#Navbar>article{
+    width: 90vw;
+    height: inherit;
+    background-color: azure;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menuList>article>ul>li{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: antiquewhite;
+} */

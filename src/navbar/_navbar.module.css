@@ -1,0 +1,52 @@
+#navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    border-bottom: 2px solid black;
+}
+
+#navbar > article{
+    width: 90vw;
+    height: inherit;
+    background-color: azure;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menuList{
+    flex-basis: 80%;
+    background-color: bisque;
+}
+
+#menuList > article>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    border-radius: 0px 0px 50px 50px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-bottom: 10px solid burlywood;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    font-size: 30px;
+}
+
+.link,#logo{
+    text-decoration: none;
+    color: white;
+}

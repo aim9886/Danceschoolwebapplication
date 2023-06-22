@@ -1,0 +1,20 @@
+#container{
+    /* border: 2px solid red; */
+    height: 60vh;
+    width: 34ch;
+    background-color: whitesmoke
+    /* padding: 10px; */
+    /* margin-right: 100px; */
+}
+
+#container ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
